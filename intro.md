@@ -129,7 +129,7 @@ You can find it here: https://github.com/RLGym/rlgym-tools/blob/main/rlgym_tools
 
 Now before you go changing your `ContinuousAction()` into `DiscreteAction()`, you should import `DiscreteAction` by entering this:
 ```python
-from rlgym_sim.utils.action_parsers import DiscreteAction``
+from rlgym_sim.utils.action_parsers import DiscreteAction
 ```
 and don't forget to change your ``action_parser = DiscreteAction()`` into a ``action_parser = DiscreteAction()``
 
